@@ -1,4 +1,6 @@
-# Decoupled Modules - A True Modular Application Development Framework
+# Decoupled Modules 
+
+Decoupled Modules (aka "DeMo") is a true modular application development framework that allows independently developped software modules to connect and collaborate inside the framework. DeMo based modular application is easy to develop and allows greater freedom of code sharing and re-use.
 
 ## The Problem
 
@@ -14,5 +16,5 @@ The key to solving the above problem is the connecting points of the modules nee
 
 That is the goal of this GitHub project, "Decoupled Modules" ("DeMo") - a framework that has a universal connecting mechanism for independently developed modules to connect and form functional easy-to-maintain applications. DeMo is also a repository of such modules which are open-sourced so people can take away and modify them to suit their needs.
 
-A central piece to this module-connecting mechanism/solution is a "universal data format" called [Recursive Delimited Array (RDA)](https://github.com/sierrathedog/rda). Unlike XML and JSON, RDA is schema-less and can store and transport arbitrarily complex data. Using RDA as the data exchange container means at the modules' interfacing point, the application framework does not impose a specific data structure and allows unrestricted data exchange between connected modules. Compared to the other component-based modular application framework, DeMo allows independently developed and interchangeable modules from different vendors to work together in an app, which means greater code sharing and reuse in app development.
+A central piece to this module-connecting mechanism/solution is a "universal data format" called [Recursive Delimited Array (RDA)](https://github.com/sierrathedog/rda). Unlike XML and JSON, RDA is schema-less and can store and transport arbitrarily complex data. Using RDA as the data exchange container means at the modules' interfacing point, the DeMo framework does not impose a specific data structure and allows unrestricted data exchange between connected modules. Compared to the other component-based modular application framework, DeMo allows independently developed and interchangeable modules from different vendors to work together inside an app, which means greater code sharing and reuse in app development.
 
