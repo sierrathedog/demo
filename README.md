@@ -1,6 +1,17 @@
-# Decoupled Modules 
+# Snappable 
 
-Decoupled Modules (aka "DeMo") is a true modular application development framework that allows independently developped software modules to connect and collaborate inside the framework. DeMo based modular application is easy to develop and allows greater freedom of code sharing and re-use.
+Snappable (aka "snapper") is a modular application development framework that allows independently developed software modules to connect and collaborate inside the framework. Snappable-based modular application is easy to develop and allows greater code sharing and reuse freedom.
+
+It has the following API for implementing "open-market and reusable" modules. The key to this API is using the IRda universal container for exchanging data between an initiator and a responder. Foldda Snap is a product that demonstrates how the framework and the modules work.
+
+## Snappable: Snap(initiator) => Engagement  //a context of two-module engagement
+### Engagement (Snappable initiator, Snappable responder)
+
+### Engagement: Request (IRda request) => ResponseHandle  //an info exchange between the engaged modules
+## ResponseHandle: Pull (IRda condition) => IRda response
+## ResponseHandle: Pull (IRda condition) => IRda response
+...
+### Engagement : Release();
 
 ## The Problem
 
