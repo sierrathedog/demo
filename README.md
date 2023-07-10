@@ -1,8 +1,8 @@
-# Snappable 
+# Snap-X
 
-Snappable (aka "snapper") is a modular application development framework that allows independently developed software modules to connect and collaborate inside the framework. Snappable-based modular application is easy to develop and allows greater code sharing and reuse freedom.
+Snap-X is a modular application development framework that allows independently developed software modules to connect and collaborate inside the framework. Snappable-based modular application is easy to develop and allows greater code sharing and reuse freedom.
 
-It has the following API for implementing "open-market and reusable" modules. The key to this API is using the IRda universal container for exchanging data between an initiator and a responder. Foldda Snap is a product that demonstrates how the framework and the modules work.
+It has the following API for implementing "open-market and reusable" modules. The key to this API is using the IRda universal container for exchanging data between an initiator and a responder. Foldda's Snap-X Connect is a product that demonstrates how the framework and the modules work.
 
 ## Snappable: Snap(initiator) => Engagement  //a context of two-module engagement
 ### Engagement (Snappable initiator, Snappable responder)
